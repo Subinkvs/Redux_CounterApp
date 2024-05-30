@@ -46,8 +46,10 @@ function App() {
   };
   return (
     <div>
+      <h1 className="header">COUNTER APP</h1>
       <div className="parent">
-        <h1 className="header">COUNTER APP</h1>
+        {/* <h1 className="header">COUNTER APP</h1> */}
+        
         <button className="btn" onClick={handleIncreament}>
           +
         </button>
